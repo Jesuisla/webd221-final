@@ -1,0 +1,104 @@
+// 960px grid
+
+@column-width: 61;
+@gutter-width: 40;
+@columns: 12;
+
+// Utility variable — you should never need to modify this
+@gridsystem-width: (@column-width * @columns) + (@gutter-width * @columns) * 1px;
+
+// Set @total-width to 100% for a fluid layout
+@total-width: @gridsystem-width;
+@total-width: 100%;
+
+.column(@x,@columns:@columns) {
+	display: inline;
+	float: left;
+	width: @total-width*((((@gutter-width+@column-width)*@x)-@gutter-width) / @gridsystem-width);
+	margin: 0 @total-width*((@gutter-width*.5)/@gridsystem-width);
+}
+
+
+.container {
+	// background: lightblue;
+	width: @total-width;
+	max-width: @gridsystem-width;
+	margin: 0 auto;
+	overflow: hidden; // self-clear floated child elements
+}
+
+.containmentImg, .innovative, .code, .delivery, .support, .project{
+	.column(3);
+	
+}
+
+.containTwo{
+	.column(6);
+}
+
+// .UI, .navigation{
+// 	clear: both;
+// 	.column(10);
+// }
+
+.containFourth{
+	.column(3);
+}
+.containThree{
+	// display: inline-block;
+	.column(0.5);
+}
+
+
+@media (max-width: 1135px) {
+		.contactDetails{
+	.column(12);
+}
+
+	.containThree{
+		.column(0.5);
+	}
+	.containFourth{
+
+		.column(4);
+	}
+
+
+}
+@media (max-width: 940px) {
+		.containmentImg{
+	.column(6);
+
+}
+.containTwo{
+		.column(12);
+	}
+
+	.innovative, .code, .delivery, .support, .project{
+		.column(4);
+	}
+}
+
+@media (max-width: 754px) {
+	.innovative, .code, .delivery, .support, .project{
+		.column(5);
+	}
+}
+
+@media (max-width: 640px) {
+		.containmentImg{
+	.column(11);
+
+}
+
+.containThree{
+		.column(0.9);
+	}
+
+}
+
+@media (max-width: 554px) {
+	.innovative, .code, .delivery, .support, .project{
+		.column(7);
+	}
+}

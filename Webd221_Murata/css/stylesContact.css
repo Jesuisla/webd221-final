@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|PT+Sans);
+body {
+  margin: 0 auto;
+  font-family: 'Ubuntu';
+}
+.center {
+  text-align: center;
+}
+#bg {
+  height: 450px;
+  background: url('../images/bg.jpg') 50% 50% no-repeat;
+  background-size: cover;
+}
+#bg #containment {
+  margin: 0 auto;
+  width: 70%;
+}
+#bg #containment p {
+  color: white;
+  text-align: center;
+}
+#bg h1 {
+  text-align: center;
+  padding-top: 130px;
+  color: #3498db;
+  font-size: 60px;
+  margin: 0;
+}
+#bg span {
+  color: white;
+}
+#contact {
+  height: 792px;
+}
+#contact #details {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+#contact .icons {
+  width: 20px;
+  margin: 0;
+}
+#contact .icons img {
+  padding: 5px;
+}
+#contact #map {
+  width: 568px;
+  height: 520px;
+}
+#contact .paragraph1 {
+  padding-bottom: 60px;
+}
+#contact .containFourth p {
+  margin-top: 0;
+  text-align: left;
+}
+#contact form input {
+  display: block;
+  height: 55px;
+  width: 330px;
+  background-color: #f0f0f0;
+  border: 1px solid #cac6c6;
+  border-radius: 2px;
+  margin-bottom: 8px;
+  color: #a3a2a2;
+}
+#contact form #message {
+  width: 530px;
+  height: 170px;
+}
+#contact form #send {
+  width: 129px;
+  height: 40px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 20px;
+}
+footer {
+  height: 55px;
+  background-color: #3498db;
+}
+footer p {
+  text-align: center;
+  padding-top: 24px;
+  color: white;
+  font-size: 14px;
+  font-family: 'PT Sans';
+}
+@media (max-width: 1135px) {
+  #contact {
+    height: 1400px;
+    text-align: center;
+  }
+  #contact #details {
+    text-align: center;
+  }
+}
+@media (max-width: 490px) {
+  #contact {
+    height: 1500px;
+  }
+}

@@ -1,0 +1,88 @@
+p {
+  text-align: center;
+}
+h2 {
+  margin: 0 auto;
+}
+h2 span {
+  padding-top: 35px;
+  border-bottom: 2px solid #3498db;
+}
+header {
+  height: 90px;
+}
+.UI {
+  display: inline-block;
+}
+#blue {
+  color: #3498db;
+}
+#naver {
+  display: none;
+}
+.navigation {
+  display: inline-block;
+  float: right;
+  overflow: hidden;
+}
+.navigation .triangle {
+  position: absolute;
+  display: inline-block;
+  margin-top: 20px;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #007bff transparent transparent transparent;
+  margin: 0;
+  margin-top: 2px;
+  margin-left: 15px;
+}
+.navigation a {
+  text-decoration: none;
+  color: #000;
+}
+.navigation a:hover {
+  border-bottom: 2px solid #3498db;
+}
+.navigation a:hover + .triangle {
+  opacity: 1;
+  -moz-transition: opacity 0.5s ease-out;
+  -webkit-transition: opacity 0.5s ease-out;
+  -o-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+}
+ul {
+  text-decoration: none;
+}
+ul li {
+  display: inline-block;
+  padding: 30px;
+  font-size: 15px;
+}
+@media (max-width: 821px) {
+  .navigation {
+    display: none;
+  }
+  .navigation li {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navigation a {
+    color: #fff;
+  }
+  .navigation li:active {
+    background: orange;
+  }
+  .navigation a:hover {
+    border-bottom: none;
+  }
+  .navigation a:hover + .triangle {
+    opacity: 0;
+  }
+  #naver {
+    display: block;
+    float: right;
+    color: #3498db;
+  }
+}

@@ -1,0 +1,117 @@
+.container {
+  width: 100%;
+  max-width: 1212px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.containmentImg,
+.innovative,
+.code,
+.delivery,
+.support,
+.project {
+  display: inline;
+  float: left;
+  width: 21.699669966996698%;
+  margin: 0 1.65016501650165%;
+}
+.containTwo {
+  display: inline;
+  float: left;
+  width: 46.6996699669967%;
+  margin: 0 1.65016501650165%;
+}
+.containFourth {
+  display: inline;
+  float: left;
+  width: 21.699669966996698%;
+  margin: 0 1.65016501650165%;
+}
+.containThree {
+  display: inline;
+  float: left;
+  width: 0.8663366336633664%;
+  margin: 0 1.65016501650165%;
+}
+@media (max-width: 1135px) {
+  .contactDetails {
+    display: inline;
+    float: left;
+    width: 96.69966996699671%;
+    margin: 0 1.65016501650165%;
+  }
+  .containThree {
+    display: inline;
+    float: left;
+    width: 0.8663366336633664%;
+    margin: 0 1.65016501650165%;
+  }
+  .containFourth {
+    display: inline;
+    float: left;
+    width: 30.033003300330037%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 940px) {
+  .containmentImg {
+    display: inline;
+    float: left;
+    width: 46.6996699669967%;
+    margin: 0 1.65016501650165%;
+  }
+  .containTwo {
+    display: inline;
+    float: left;
+    width: 96.69966996699671%;
+    margin: 0 1.65016501650165%;
+  }
+  .innovative,
+  .code,
+  .delivery,
+  .support,
+  .project {
+    display: inline;
+    float: left;
+    width: 30.033003300330037%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 754px) {
+  .innovative,
+  .code,
+  .delivery,
+  .support,
+  .project {
+    display: inline;
+    float: left;
+    width: 38.366336633663366%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 640px) {
+  .containmentImg {
+    display: inline;
+    float: left;
+    width: 88.36633663366337%;
+    margin: 0 1.65016501650165%;
+  }
+  .containThree {
+    display: inline;
+    float: left;
+    width: 4.199669966996701%;
+    margin: 0 1.65016501650165%;
+  }
+}
+@media (max-width: 554px) {
+  .innovative,
+  .code,
+  .delivery,
+  .support,
+  .project {
+    display: inline;
+    float: left;
+    width: 55.03300330033003%;
+    margin: 0 1.65016501650165%;
+  }
+}

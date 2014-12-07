@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+body{
+	margin: 0 auto;
+	font-family: 'Ubuntu';
+}
+
+
+#bg{
+	height: 450px;
+	background: url('../images/bg.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	
+	#containment{
+		margin: 0 auto;
+		width: 70%;
+		p{
+			color: white;
+			text-align: center;
+		}
+	}
+
+
+	 h1{
+	text-align: center;	
+	padding-top:130px;
+	color: #3498db;
+	font-size: 60px;
+	margin: 0;
+	}
+
+	span{
+	color:white;
+	}
+}
+
+section{
+	height: 288px;
+	#containment2{
+		margin: 0 auto;
+		width: 80%;
+		p{
+			text-align: center;
+			font-size: 16px;
+			color: #9d9c9c;
+			line-height: 1.5em;
+		}
+	}
+	h2{
+		padding-top: 35px;
+		text-align: center;
+	}
+
+
+}
+
+#ourTeam{
+	text-align: center;
+	height: 525px;
+	background-color: #f6f6f6;
+
+	p{
+		color: #9d9c9c;
+	}
+
+	p:nth-child(4){
+		// width:300px;
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+
+}
+
+#Mission{
+	height: 395px;
+	img{
+	padding-top: 60px
+	}
+	h2{
+		margin: 0;
+		width: 142px;
+	}
+	p{
+		text-align: left;
+	}
+}
+
+footer{
+	height: 55px;
+	background-color: #3498db;
+	p{
+		text-align: center;
+		padding-top: 24px;
+		color: white;
+		font-size: 14px;
+	}
+}
+
+
+
+@media (max-width: 940px) {
+    body {
+        // background: red;
+    	
+    #aboutUs{
+    		height: 500px;
+    }
+
+    #ourTeam{
+    	height: 900px;
+    }
+    #Mission{
+    	height: 800px;
+		text-align: center;
+
+		h2{
+			margin: 0 auto;
+		}
+    
+    }
+
+    }
+}
+
+
+@media (max-width: 640px) {
+    body {
+        // background: green;
+    	
+    #ourTeam{
+    		height: 1700px;
+    }
+
+}
+
+
+}
+@media (max-width: 498px) {
+    body {
+        // background: yellow;
+    	
+    #aboutUs{
+    		height: 600px;
+    }
+
+}
+
+
+}

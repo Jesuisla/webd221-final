@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|PT+Sans);
+
+body{
+	margin: 0 auto;
+	font-family: 'Ubuntu';
+}
+
+p{
+		color: #9d9c9c;
+		
+	}
+
+
+
+#sliderR{
+	// position: absolute;
+	// padding-left: 97%;
+	float: right;
+}
+
+#sliderL{
+	position: absolute;
+	transform: rotateY(180deg);
+
+}
+#homeBg{
+	height: 450px;
+	background: url('../images/bikeBg.jpg')50% 50% no-repeat;
+	background-size: cover;
+	
+	#containment{
+		margin: 0 auto;
+		width: 70%;
+		p{
+			color: white;
+			text-align: center;
+		}
+	}
+
+
+	 h2{
+	text-align: center;	
+	padding-top:9px;
+	color: #fff;
+	width: 100%;
+	// font-size: 60px;
+	margin: 0;
+	border: none;
+	}
+	.padding{
+		padding-top: 210px;
+	}
+	.box{
+		// position: absolute;
+		display: block;
+		margin: 0 auto;
+		// margin-top: 210px;
+		// margin-left: 550px;
+		// margin: auto 0;
+		// text-align: center;
+		height: 50px;
+		width: 370px;
+		background-color: rgba(0,0,0, 0.5);
+		// opacity: 0.5;
+		z-index: 0;
+
+		p{
+			color: white;
+			padding-top: 15px;
+		}
+	}
+
+	.box:nth-child(3){
+		
+		width: 470px;
+		font-size: 20px;
+		p{
+		color: #d8dbdb;
+		}
+
+	}
+
+
+}
+
+#blueBg{
+		background-color:#3498db;
+		height: 100px;
+		p{
+			margin: 0 auto;
+			color: white;
+			padding-top:45px; 
+			font-size: 20px;
+		
+		span{
+			font-size: 24px;
+			text-decoration: underline;
+		}
+	}
+	}
+#UIBrush{
+	height: 409px;
+	h2{
+		padding-top: 56px;
+		width: 95px;
+	}
+
+	.info{
+		padding-top: 66px;
+	}
+
+	.innovative, .code, .delivery, .support{
+		text-align: center;
+	}
+
+	p:nth-child(3){
+		text-align: left;
+		font-size: 14px;
+	}
+}
+#projects{
+	height: 400px;
+	h2{
+		width: 187px;
+	}
+}
+.project{
+	position:relative;
+
+	p{
+		// float: left;
+		margin: 0;
+		float: right;
+		color: #3498db;
+		padding-right: 20px;
+	}
+	.line{
+		padding-left: 7px;
+	}
+
+	p:nth-child(3){
+		// margin-top:10px; 
+		color: #605f5f;
+		font-size: 12px;
+	}
+
+}
+.title{
+	position: absolute;
+	margin-top: 170px;
+	height: 62px;
+	width: 250px;
+	background-color:#eeeeee;
+}
+
+footer{
+	height: 55px;
+	background-color: #3498db;
+	p{
+		text-align: center;
+		padding-top: 24px;
+		color: white;
+		font-size: 14px;
+		font-family: 'PT Sans';
+	}
+}
+
+@media (max-width: 940px) {
+	#projects, #UIBrush {
+		height: 600px;
+	}
+
+}
+
+@media (max-width: 554px) {
+	#UIBrush{
+		height: 1000px;
+	}
+	#projects{
+		height: 1100px;
+	}
+	.info{
+		padding-left: 120px;
+	}
+	.recentProject{
+		padding-left: 120px;
+	}
+}
